@@ -601,11 +601,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jack Jenkins\\source\\repos\\BlueBerry\\BlueBerry.Core\\BlueBerry.Core.csproj",
+      "projectUniqueName": "C:\\Users\\Jack Jenkins\\source\\repos\\BlueBerry\\Source\\BlueBerry.Core\\BlueBerry.Core.csproj",
       "projectName": "BlueBerry.Core",
-      "projectPath": "C:\\Users\\Jack Jenkins\\source\\repos\\BlueBerry\\BlueBerry.Core\\BlueBerry.Core.csproj",
+      "projectPath": "C:\\Users\\Jack Jenkins\\source\\repos\\BlueBerry\\Source\\BlueBerry.Core\\BlueBerry.Core.csproj",
       "packagesPath": "C:\\Users\\Jack Jenkins\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jack Jenkins\\source\\repos\\BlueBerry\\BlueBerry.Core\\obj\\",
+      "outputPath": "C:\\Users\\Jack Jenkins\\source\\repos\\BlueBerry\\Source\\BlueBerry.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
