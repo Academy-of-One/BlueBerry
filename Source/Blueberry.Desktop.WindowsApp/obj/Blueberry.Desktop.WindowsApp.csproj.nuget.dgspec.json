@@ -1,0 +1,140 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Jack Jenkins\\source\\repos\\BlueBerry\\Source\\Blueberry.Desktop.WindowsApp\\Blueberry.Desktop.WindowsApp.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Jack Jenkins\\source\\repos\\BlueBerry\\Source\\BlueBerry.Core\\BlueBerry.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jack Jenkins\\source\\repos\\BlueBerry\\Source\\BlueBerry.Core\\BlueBerry.Core.csproj",
+        "projectName": "BlueBerry.Core",
+        "projectPath": "C:\\Users\\Jack Jenkins\\source\\repos\\BlueBerry\\Source\\BlueBerry.Core\\BlueBerry.Core.csproj",
+        "packagesPath": "C:\\Users\\Jack Jenkins\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jack Jenkins\\source\\repos\\BlueBerry\\Source\\BlueBerry.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Jack Jenkins\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Dna.Framework": {
+              "target": "Package",
+              "version": "[1.0.7.15, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100-preview8-013656\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Jack Jenkins\\source\\repos\\BlueBerry\\Source\\Blueberry.Desktop.WindowsApp\\Blueberry.Desktop.WindowsApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jack Jenkins\\source\\repos\\BlueBerry\\Source\\Blueberry.Desktop.WindowsApp\\Blueberry.Desktop.WindowsApp.csproj",
+        "projectName": "Blueberry.Desktop.WindowsApp",
+        "projectPath": "C:\\Users\\Jack Jenkins\\source\\repos\\BlueBerry\\Source\\Blueberry.Desktop.WindowsApp\\Blueberry.Desktop.WindowsApp.csproj",
+        "packagesPath": "C:\\Users\\Jack Jenkins\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jack Jenkins\\source\\repos\\BlueBerry\\Source\\Blueberry.Desktop.WindowsApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Jack Jenkins\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Users\\Jack Jenkins\\source\\repos\\BlueBerry\\Source\\BlueBerry.Core\\BlueBerry.Core.csproj": {
+                "projectPath": "C:\\Users\\Jack Jenkins\\source\\repos\\BlueBerry\\Source\\BlueBerry.Core\\BlueBerry.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100-preview8-013656\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
