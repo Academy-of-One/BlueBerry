@@ -1,0 +1,15 @@
+C:\Users\Jack Jenkins\source\repos\BlueBerry\Source\Blueberry.Mobile\Blueberry.Mobile\bin\Debug\netstandard2.0\Blueberry.Mobile.deps.json
+C:\Users\Jack Jenkins\source\repos\BlueBerry\Source\Blueberry.Mobile\Blueberry.Mobile\bin\Debug\netstandard2.0\Blueberry.Mobile.dll
+C:\Users\Jack Jenkins\source\repos\BlueBerry\Source\Blueberry.Mobile\Blueberry.Mobile\bin\Debug\netstandard2.0\Blueberry.Mobile.pdb
+C:\Users\Jack Jenkins\source\repos\BlueBerry\Source\Blueberry.Mobile\Blueberry.Mobile\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Jack Jenkins\source\repos\BlueBerry\Source\Blueberry.Mobile\Blueberry.Mobile\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Jack Jenkins\source\repos\BlueBerry\Source\Blueberry.Mobile\Blueberry.Mobile\obj\Debug\netstandard2.0\Blueberry.Mobile.csproj.CoreCompileInputs.cache
+C:\Users\Jack Jenkins\source\repos\BlueBerry\Source\Blueberry.Mobile\Blueberry.Mobile\obj\Debug\netstandard2.0\Blueberry.Mobile.AssemblyInfoInputs.cache
+C:\Users\Jack Jenkins\source\repos\BlueBerry\Source\Blueberry.Mobile\Blueberry.Mobile\obj\Debug\netstandard2.0\Blueberry.Mobile.AssemblyInfo.cs
+C:\Users\Jack Jenkins\source\repos\BlueBerry\Source\Blueberry.Mobile\Blueberry.Mobile\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Jack Jenkins\source\repos\BlueBerry\Source\Blueberry.Mobile\Blueberry.Mobile\obj\Debug\netstandard2.0\Blueberry.Mobile.dll
+C:\Users\Jack Jenkins\source\repos\BlueBerry\Source\Blueberry.Mobile\Blueberry.Mobile\obj\Debug\netstandard2.0\Blueberry.Mobile.pdb
+C:\Users\Jack Jenkins\source\repos\BlueBerry\Source\Blueberry.Mobile\Blueberry.Mobile\bin\Debug\netstandard2.0\BlueBerry.Core.dll
+C:\Users\Jack Jenkins\source\repos\BlueBerry\Source\Blueberry.Mobile\Blueberry.Mobile\bin\Debug\netstandard2.0\BlueBerry.Core.pdb
+C:\Users\Jack Jenkins\source\repos\BlueBerry\Source\Blueberry.Mobile\Blueberry.Mobile\obj\Debug\netstandard2.0\Blueberry.Mobile.csprojAssemblyReference.cache
+C:\Users\Jack Jenkins\source\repos\BlueBerry\Source\Blueberry.Mobile\Blueberry.Mobile\obj\Debug\netstandard2.0\Blueberry.Mobile.csproj.CopyComplete

@@ -1,0 +1,9 @@
+C:\Users\Jack Jenkins\source\repos\BlueBerry\Source\BlueBerry.Core\bin\Debug\netstandard2.0\BlueBerry.Core.deps.json
+C:\Users\Jack Jenkins\source\repos\BlueBerry\Source\BlueBerry.Core\bin\Debug\netstandard2.0\BlueBerry.Core.dll
+C:\Users\Jack Jenkins\source\repos\BlueBerry\Source\BlueBerry.Core\bin\Debug\netstandard2.0\BlueBerry.Core.pdb
+C:\Users\Jack Jenkins\source\repos\BlueBerry\Source\BlueBerry.Core\obj\Debug\netstandard2.0\BlueBerry.Core.csprojAssemblyReference.cache
+C:\Users\Jack Jenkins\source\repos\BlueBerry\Source\BlueBerry.Core\obj\Debug\netstandard2.0\BlueBerry.Core.csproj.CoreCompileInputs.cache
+C:\Users\Jack Jenkins\source\repos\BlueBerry\Source\BlueBerry.Core\obj\Debug\netstandard2.0\BlueBerry.Core.AssemblyInfoInputs.cache
+C:\Users\Jack Jenkins\source\repos\BlueBerry\Source\BlueBerry.Core\obj\Debug\netstandard2.0\BlueBerry.Core.AssemblyInfo.cs
+C:\Users\Jack Jenkins\source\repos\BlueBerry\Source\BlueBerry.Core\obj\Debug\netstandard2.0\BlueBerry.Core.dll
+C:\Users\Jack Jenkins\source\repos\BlueBerry\Source\BlueBerry.Core\obj\Debug\netstandard2.0\BlueBerry.Core.pdb
