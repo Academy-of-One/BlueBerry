@@ -1,0 +1,15 @@
+C:\Users\Jack Jenkins\source\repos\BlueBerry\Source\Blueberry.Desktop.ConsolePlayground\bin\Debug\netcoreapp3.0\Blueberry.Desktop.ConsolePlayground.exe
+C:\Users\Jack Jenkins\source\repos\BlueBerry\Source\Blueberry.Desktop.ConsolePlayground\bin\Debug\netcoreapp3.0\Blueberry.Desktop.ConsolePlayground.deps.json
+C:\Users\Jack Jenkins\source\repos\BlueBerry\Source\Blueberry.Desktop.ConsolePlayground\bin\Debug\netcoreapp3.0\Blueberry.Desktop.ConsolePlayground.runtimeconfig.json
+C:\Users\Jack Jenkins\source\repos\BlueBerry\Source\Blueberry.Desktop.ConsolePlayground\bin\Debug\netcoreapp3.0\Blueberry.Desktop.ConsolePlayground.runtimeconfig.dev.json
+C:\Users\Jack Jenkins\source\repos\BlueBerry\Source\Blueberry.Desktop.ConsolePlayground\bin\Debug\netcoreapp3.0\Blueberry.Desktop.ConsolePlayground.dll
+C:\Users\Jack Jenkins\source\repos\BlueBerry\Source\Blueberry.Desktop.ConsolePlayground\bin\Debug\netcoreapp3.0\Blueberry.Desktop.ConsolePlayground.pdb
+C:\Users\Jack Jenkins\source\repos\BlueBerry\Source\Blueberry.Desktop.ConsolePlayground\bin\Debug\netcoreapp3.0\Blueberry.Dekstop.WindowsApp.Bluetooth.dll
+C:\Users\Jack Jenkins\source\repos\BlueBerry\Source\Blueberry.Desktop.ConsolePlayground\bin\Debug\netcoreapp3.0\Windows.winmd
+C:\Users\Jack Jenkins\source\repos\BlueBerry\Source\Blueberry.Desktop.ConsolePlayground\bin\Debug\netcoreapp3.0\Blueberry.Dekstop.WindowsApp.Bluetooth.pdb
+C:\Users\Jack Jenkins\source\repos\BlueBerry\Source\Blueberry.Desktop.ConsolePlayground\obj\Debug\netcoreapp3.0\Blueberry.Desktop.ConsolePlayground.csprojAssemblyReference.cache
+C:\Users\Jack Jenkins\source\repos\BlueBerry\Source\Blueberry.Desktop.ConsolePlayground\obj\Debug\netcoreapp3.0\Blueberry.Desktop.ConsolePlayground.AssemblyInfoInputs.cache
+C:\Users\Jack Jenkins\source\repos\BlueBerry\Source\Blueberry.Desktop.ConsolePlayground\obj\Debug\netcoreapp3.0\Blueberry.Desktop.ConsolePlayground.AssemblyInfo.cs
+C:\Users\Jack Jenkins\source\repos\BlueBerry\Source\Blueberry.Desktop.ConsolePlayground\obj\Debug\netcoreapp3.0\Blueberry.Desktop.ConsolePlayground.csproj.CopyComplete
+C:\Users\Jack Jenkins\source\repos\BlueBerry\Source\Blueberry.Desktop.ConsolePlayground\obj\Debug\netcoreapp3.0\Blueberry.Desktop.ConsolePlayground.dll
+C:\Users\Jack Jenkins\source\repos\BlueBerry\Source\Blueberry.Desktop.ConsolePlayground\obj\Debug\netcoreapp3.0\Blueberry.Desktop.ConsolePlayground.pdb

@@ -18,6 +18,16 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blueberry.Mobile", "Blueber
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blueberry.Desktop.WindowsApp", "Blueberry.Desktop.WindowsApp\Blueberry.Desktop.WindowsApp.csproj", "{FC6D0E3B-0FCA-4A04-81A6-D8CAE99D580E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mobile", "Mobile", "{7A4273B1-2DD4-45BE-8556-9422C168709F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Desktop", "Desktop", "{C7948C2C-9818-4097-8AE7-9CAC4391A6CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{F39E3CC3-CFCF-4A55-B5C9-B8A3EDD8FFA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blueberry.Dekstop.WindowsApp.Bluetooth", "Blueberry.Dekstop.WindowsApp.Bluetooth\Blueberry.Dekstop.WindowsApp.Bluetooth.csproj", "{D0B9EEE3-3EAB-45E2-BA20-C2554340211F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blueberry.Desktop.ConsolePlayground", "Blueberry.Desktop.ConsolePlayground\Blueberry.Desktop.ConsolePlayground.csproj", "{DA0623BA-F1F7-4FEF-AE92-5017D2CFB68F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -92,9 +102,42 @@ Global
 		{FC6D0E3B-0FCA-4A04-81A6-D8CAE99D580E}.Release|iPhone.Build.0 = Release|Any CPU
 		{FC6D0E3B-0FCA-4A04-81A6-D8CAE99D580E}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{FC6D0E3B-0FCA-4A04-81A6-D8CAE99D580E}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{D0B9EEE3-3EAB-45E2-BA20-C2554340211F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0B9EEE3-3EAB-45E2-BA20-C2554340211F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0B9EEE3-3EAB-45E2-BA20-C2554340211F}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{D0B9EEE3-3EAB-45E2-BA20-C2554340211F}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{D0B9EEE3-3EAB-45E2-BA20-C2554340211F}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{D0B9EEE3-3EAB-45E2-BA20-C2554340211F}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{D0B9EEE3-3EAB-45E2-BA20-C2554340211F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0B9EEE3-3EAB-45E2-BA20-C2554340211F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0B9EEE3-3EAB-45E2-BA20-C2554340211F}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{D0B9EEE3-3EAB-45E2-BA20-C2554340211F}.Release|iPhone.Build.0 = Release|Any CPU
+		{D0B9EEE3-3EAB-45E2-BA20-C2554340211F}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{D0B9EEE3-3EAB-45E2-BA20-C2554340211F}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{DA0623BA-F1F7-4FEF-AE92-5017D2CFB68F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA0623BA-F1F7-4FEF-AE92-5017D2CFB68F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA0623BA-F1F7-4FEF-AE92-5017D2CFB68F}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{DA0623BA-F1F7-4FEF-AE92-5017D2CFB68F}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{DA0623BA-F1F7-4FEF-AE92-5017D2CFB68F}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{DA0623BA-F1F7-4FEF-AE92-5017D2CFB68F}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{DA0623BA-F1F7-4FEF-AE92-5017D2CFB68F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA0623BA-F1F7-4FEF-AE92-5017D2CFB68F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA0623BA-F1F7-4FEF-AE92-5017D2CFB68F}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{DA0623BA-F1F7-4FEF-AE92-5017D2CFB68F}.Release|iPhone.Build.0 = Release|Any CPU
+		{DA0623BA-F1F7-4FEF-AE92-5017D2CFB68F}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{DA0623BA-F1F7-4FEF-AE92-5017D2CFB68F}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{968DD165-0D89-4663-80DA-104037218C2F} = {F39E3CC3-CFCF-4A55-B5C9-B8A3EDD8FFA2}
+		{168662E1-79B1-4D7F-91CC-6D05A4260F10} = {7A4273B1-2DD4-45BE-8556-9422C168709F}
+		{37B616ED-0991-46A5-B883-140FA05CC2C7} = {7A4273B1-2DD4-45BE-8556-9422C168709F}
+		{7F9A97EA-6823-4E2B-807C-A0F7D9CBA66C} = {7A4273B1-2DD4-45BE-8556-9422C168709F}
+		{FC6D0E3B-0FCA-4A04-81A6-D8CAE99D580E} = {C7948C2C-9818-4097-8AE7-9CAC4391A6CE}
+		{D0B9EEE3-3EAB-45E2-BA20-C2554340211F} = {C7948C2C-9818-4097-8AE7-9CAC4391A6CE}
+		{DA0623BA-F1F7-4FEF-AE92-5017D2CFB68F} = {C7948C2C-9818-4097-8AE7-9CAC4391A6CE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {13E736C9-FC31-4D1E-BC4B-AE7A9A26DE7E}

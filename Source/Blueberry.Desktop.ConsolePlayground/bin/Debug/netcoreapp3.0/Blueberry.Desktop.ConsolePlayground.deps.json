@@ -1,0 +1,52 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "Blueberry.Desktop.ConsolePlayground/1.0.0": {
+        "dependencies": {
+          "Blueberry.Dekstop.WindowsApp.Bluetooth": "1.0.0"
+        },
+        "runtime": {
+          "Blueberry.Desktop.ConsolePlayground.dll": {}
+        }
+      },
+      "Blueberry.Dekstop.WindowsApp.Bluetooth/1.0.0": {
+        "dependencies": {
+          "Windows": "255.255.255.255"
+        },
+        "runtime": {
+          "Blueberry.Dekstop.WindowsApp.Bluetooth.dll": {}
+        }
+      },
+      "Windows.Reference/255.255.255.255": {
+        "runtime": {
+          "Windows.winmd": {
+            "assemblyVersion": "255.255.255.255",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Blueberry.Desktop.ConsolePlayground/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Blueberry.Dekstop.WindowsApp.Bluetooth/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Windows.Reference/255.255.255.255": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

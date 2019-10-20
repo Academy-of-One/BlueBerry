@@ -1,0 +1,10 @@
+C:\Users\Jack Jenkins\source\repos\BlueBerry\Source\Blueberry.Dekstop.WindowsApp.Bluetooth\bin\Debug\netcoreapp2.1\Blueberry.Dekstop.WindowsApp.Bluetooth.deps.json
+C:\Users\Jack Jenkins\source\repos\BlueBerry\Source\Blueberry.Dekstop.WindowsApp.Bluetooth\bin\Debug\netcoreapp2.1\Blueberry.Dekstop.WindowsApp.Bluetooth.dll
+C:\Users\Jack Jenkins\source\repos\BlueBerry\Source\Blueberry.Dekstop.WindowsApp.Bluetooth\bin\Debug\netcoreapp2.1\Blueberry.Dekstop.WindowsApp.Bluetooth.pdb
+C:\Users\Jack Jenkins\source\repos\BlueBerry\Source\Blueberry.Dekstop.WindowsApp.Bluetooth\bin\Debug\netcoreapp2.1\Windows.winmd
+C:\Users\Jack Jenkins\source\repos\BlueBerry\Source\Blueberry.Dekstop.WindowsApp.Bluetooth\obj\Debug\netcoreapp2.1\Blueberry.Dekstop.WindowsApp.Bluetooth.csprojAssemblyReference.cache
+C:\Users\Jack Jenkins\source\repos\BlueBerry\Source\Blueberry.Dekstop.WindowsApp.Bluetooth\obj\Debug\netcoreapp2.1\Blueberry.Dekstop.WindowsApp.Bluetooth.AssemblyInfoInputs.cache
+C:\Users\Jack Jenkins\source\repos\BlueBerry\Source\Blueberry.Dekstop.WindowsApp.Bluetooth\obj\Debug\netcoreapp2.1\Blueberry.Dekstop.WindowsApp.Bluetooth.AssemblyInfo.cs
+C:\Users\Jack Jenkins\source\repos\BlueBerry\Source\Blueberry.Dekstop.WindowsApp.Bluetooth\obj\Debug\netcoreapp2.1\Blueberry.Dekstop.WindowsApp.Bluetooth.csproj.CopyComplete
+C:\Users\Jack Jenkins\source\repos\BlueBerry\Source\Blueberry.Dekstop.WindowsApp.Bluetooth\obj\Debug\netcoreapp2.1\Blueberry.Dekstop.WindowsApp.Bluetooth.dll
+C:\Users\Jack Jenkins\source\repos\BlueBerry\Source\Blueberry.Dekstop.WindowsApp.Bluetooth\obj\Debug\netcoreapp2.1\Blueberry.Dekstop.WindowsApp.Bluetooth.pdb
