@@ -230,16 +230,19 @@ namespace Blueberry.Dekstop.WindowsApp.Bluetooth
         /// </summary>
         public void StartListening()
         {
-            // If already listening...
-            if (Listening)
-                // Do nothing more
-                return;
+            lock (mThreadLock)
+            {
+                // If already listening...
+                if (Listening)
+                    // Do nothing more
+                    return;
 
-            // start the underlying watcher
-            mWatcher.Start();
+                // start the underlying watcher
+                mWatcher.Start();
 
+            }
+            
             // Inform listeners
-
             StartedListening();
         }
 
@@ -248,16 +251,16 @@ namespace Blueberry.Dekstop.WindowsApp.Bluetooth
         /// </summary>
         public void StopListening()
         {
-            // If we have no listening...
-            if (!Listening)
-                // Do nothing More
-                return;
-
-            // Stop listening
-            mWatcher.Stop();
-
             lock (mThreadLock)
-            {
+            { 
+                // If we have no listening...
+                if (!Listening)
+                    // Do nothing More
+                    return;
+
+                // Stop listening
+                mWatcher.Stop();
+                
                 // Clear devices
                 mDeiscoverdDevices.Clear();
             }
