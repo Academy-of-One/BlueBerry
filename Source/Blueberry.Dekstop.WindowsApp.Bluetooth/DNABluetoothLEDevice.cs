@@ -10,7 +10,7 @@ namespace Blueberry.Dekstop.WindowsApp.Bluetooth
     {
         #region Public Properties
         /// <summary>
-        /// The time of the brodcast advertisement message of the device
+        /// The time of the broadcast advertisement message of the device
         /// </summary>
         public DateTimeOffset BroadcastTime { get; }
 
@@ -26,22 +26,64 @@ namespace Blueberry.Dekstop.WindowsApp.Bluetooth
 
 
         /// <summary>
-        /// The signal streanght in db
+        /// The signal strength in db
         /// </summary>
         public short SignalStreangthinDB { get; }
+
+
+        /// <summary>
+        /// Indicates if we are connected to the device
+        /// </summary>
+        public bool Connected { get; }
+
+        /// <summary>
+        /// Indicates if the device supports pairing
+        /// </summary>
+        public bool CanPair { get; }
+
+        /// <summary>
+        /// Indicates if we are currently paired to this device
+        /// </summary>
+        public bool Paired { get; }
+
+        /// <summary>
+        /// The permanent unique id of this device
+        /// </summary>
+        public string DeviceID { get; }
+
         #endregion
 
         #region Constructor
 
         /// <summary>
-        /// Default Constructor
+        /// Default constructor
         /// </summary>
-        public DnaBluetoothLEDevice(ulong address, string name, short rssi, DateTimeOffset broadcastTime)
+        /// <param name="address">The BT device address</param>
+        /// <param name="name"> Device name</param>
+        /// <param name="rssi">Signal Strength</param>
+        /// <param name="broadcastTime">The broadcast time of the discover</param>
+        /// <param name="connected">if connected to the device</param>
+        /// <param name="canpair">If we are paired with the device</param>
+        /// <param name="paired">If we can pair to the device</param>
+        /// <param name="deviceid">Unique ID of the device</param>
+        public DnaBluetoothLEDevice(ulong address,
+            string name, 
+            short rssi, 
+            DateTimeOffset broadcastTime,
+            bool connected,
+            bool canpair,
+            bool paired,
+            string deviceid
+            )
         {
             Address = address;
             Name = name;
             SignalStreangthinDB = rssi;
             BroadcastTime = broadcastTime;
+            Connected = connected;
+            CanPair = canpair;
+            Paired = paired;
+            DeviceID = deviceid;
         }
 
         #endregion
@@ -52,7 +94,7 @@ namespace Blueberry.Dekstop.WindowsApp.Bluetooth
         /// <returns></returns>
         public override string ToString()
         {
-            return $"{ (string.IsNullOrEmpty(Name) ? " [No Nname]" : Name ) } {Address} ({SignalStreangthinDB})";
+            return $"{ (string.IsNullOrEmpty(Name) ? " [No Nname]" : Name ) } [{DeviceID}] ({SignalStreangthinDB})";
         }
     }
 }
