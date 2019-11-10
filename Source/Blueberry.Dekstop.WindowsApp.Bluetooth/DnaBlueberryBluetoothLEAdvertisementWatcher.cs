@@ -214,7 +214,7 @@ namespace Blueberry.Dekstop.WindowsApp.Bluetooth
         private async Task<DnaBluetoothLEDevice> GetBluetoothLEDeviceAsync(ulong address, DateTimeOffset brodcastTime, short rssi)
         {
             // Get bluetooth device info
-            var device = await BluetoothLEDevice.FromBluetoothAddressAsync(address).AsTask();
+            using var device = await BluetoothLEDevice.FromBluetoothAddressAsync(address).AsTask();
 
             // Null guard
             if (device == null)
