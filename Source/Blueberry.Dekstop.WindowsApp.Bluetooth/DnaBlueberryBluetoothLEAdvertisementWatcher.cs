@@ -17,7 +17,7 @@ namespace Blueberry.Dekstop.WindowsApp.Bluetooth
         #region Private Members
 
         /// <summary>
-        ///  The underlyning bluetooth watcher class
+        ///  The underlying bluetooth watcher class
         /// </summary>
         private readonly BluetoothLEAdvertisementWatcher mWatcher;
 
@@ -167,6 +167,7 @@ namespace Blueberry.Dekstop.WindowsApp.Bluetooth
             // Is new discovery?
             var newDiscovery = false;
             var existingName = default(string);
+            var nameChanged = false;
 
             // Lock the door
             lock (mThreadLock)
@@ -176,19 +177,21 @@ namespace Blueberry.Dekstop.WindowsApp.Bluetooth
 
                 if (!newDiscovery)
                     existingName = mDeiscoverdDevices[device.DeviceID].Name;
-            }
 
-            // Name changed?
-            var nameChanged =
-                // If it already exists
-                !newDiscovery &&
-                // And it is not a blank name
-                !string.IsNullOrEmpty(device.Name) &&
-                // And the Name is different
-                existingName != device.Name;
+                // Name changed?
+                nameChanged =
+                    // If it already exists
+                    !newDiscovery &&
+                    // And it is not a blank name
+                    !string.IsNullOrEmpty(device.Name) &&
+                    // And the Name is different
+                    existingName != device.Name;
 
-            lock (mThreadLock)
-            {
+                // If we are no longer listening
+                if (!Listening)
+                    // do nothing
+                    return;
+
                 // Add /Update the device in the dictionary
                 mDeiscoverdDevices[device.DeviceID] = device;
             }
