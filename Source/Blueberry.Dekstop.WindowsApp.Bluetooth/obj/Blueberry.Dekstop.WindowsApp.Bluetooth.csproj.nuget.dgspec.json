@@ -54,9 +54,14 @@
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
+            },
+            "Microsoft.Windows.SDK.Contracts": {
+              "target": "Package",
+              "version": "[10.0.18362.2005, )"
             }
           },
           "imports": [
+            "uap10.0.18362",
             "net461",
             "net462",
             "net47",

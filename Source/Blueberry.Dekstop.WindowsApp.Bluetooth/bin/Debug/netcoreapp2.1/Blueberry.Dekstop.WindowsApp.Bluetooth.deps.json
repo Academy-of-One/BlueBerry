@@ -9,7 +9,7 @@
       "Blueberry.Dekstop.WindowsApp.Bluetooth/1.0.0": {
         "dependencies": {
           "Microsoft.CodeAnalysis.FxCopAnalyzers": "2.9.7",
-          "Windows": "255.255.255.255"
+          "Microsoft.Windows.SDK.Contracts": "10.0.18362.2005"
         },
         "runtime": {
           "Blueberry.Dekstop.WindowsApp.Bluetooth.dll": {}
@@ -27,11 +27,28 @@
       "Microsoft.CodeQuality.Analyzers/2.9.7": {},
       "Microsoft.NetCore.Analyzers/2.9.7": {},
       "Microsoft.NetFramework.Analyzers/2.9.7": {},
-      "Windows/255.255.255.255": {
+      "Microsoft.Windows.SDK.Contracts/10.0.18362.2005": {
+        "dependencies": {
+          "System.Runtime.WindowsRuntime": "4.6.0",
+          "System.Runtime.WindowsRuntime.UI.Xaml": "4.6.0"
+        }
+      },
+      "System.Runtime.WindowsRuntime/4.6.0": {
         "runtime": {
-          "Windows.winmd": {
-            "assemblyVersion": "255.255.255.255",
-            "fileVersion": "0.0.0.0"
+          "lib/netstandard2.0/System.Runtime.WindowsRuntime.dll": {
+            "assemblyVersion": "4.0.14.0",
+            "fileVersion": "4.700.19.46214"
+          }
+        }
+      },
+      "System.Runtime.WindowsRuntime.UI.Xaml/4.6.0": {
+        "dependencies": {
+          "System.Runtime.WindowsRuntime": "4.6.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.WindowsRuntime.UI.Xaml.dll": {
+            "assemblyVersion": "4.0.4.0",
+            "fileVersion": "4.700.19.46214"
           }
         }
       }
@@ -78,10 +95,26 @@
       "path": "microsoft.netframework.analyzers/2.9.7",
       "hashPath": "microsoft.netframework.analyzers.2.9.7.nupkg.sha512"
     },
-    "Windows/255.255.255.255": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
+    "Microsoft.Windows.SDK.Contracts/10.0.18362.2005": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3R3uDDGRSdeRdHpor1SyN3qg/VmseKjcKFIAQJ0iRnzoCPvnlCcnSGaNsjqVSzHQHbBSBtSKVBxBS2GyEw8qhw==",
+      "path": "microsoft.windows.sdk.contracts/10.0.18362.2005",
+      "hashPath": "microsoft.windows.sdk.contracts.10.0.18362.2005.nupkg.sha512"
+    },
+    "System.Runtime.WindowsRuntime/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IWrs1TmbxP65ZZjIglNyvDkFNoV5q2Pofg5WO7I8RKQOpLdFprQSh3xesOoClBqR4JHr4nEB1Xk1MqLPW1jPuQ==",
+      "path": "system.runtime.windowsruntime/4.6.0",
+      "hashPath": "system.runtime.windowsruntime.4.6.0.nupkg.sha512"
+    },
+    "System.Runtime.WindowsRuntime.UI.Xaml/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-r4tNw5v5kqRJ9HikWpcyNf3suGw7DjX93svj9iBjtdeLqL8jt9Z+7f+s4wrKZJr84u8IMsrIjt8K6jYvkRqMSg==",
+      "path": "system.runtime.windowsruntime.ui.xaml/4.6.0",
+      "hashPath": "system.runtime.windowsruntime.ui.xaml.4.6.0.nupkg.sha512"
     }
   }
 }

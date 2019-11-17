@@ -5,7 +5,6 @@ C:\Users\Jack Jenkins\source\repos\BlueBerry\Source\Blueberry.Desktop.ConsolePla
 C:\Users\Jack Jenkins\source\repos\BlueBerry\Source\Blueberry.Desktop.ConsolePlayground\bin\Debug\netcoreapp3.0\Blueberry.Desktop.ConsolePlayground.dll
 C:\Users\Jack Jenkins\source\repos\BlueBerry\Source\Blueberry.Desktop.ConsolePlayground\bin\Debug\netcoreapp3.0\Blueberry.Desktop.ConsolePlayground.pdb
 C:\Users\Jack Jenkins\source\repos\BlueBerry\Source\Blueberry.Desktop.ConsolePlayground\bin\Debug\netcoreapp3.0\Blueberry.Dekstop.WindowsApp.Bluetooth.dll
-C:\Users\Jack Jenkins\source\repos\BlueBerry\Source\Blueberry.Desktop.ConsolePlayground\bin\Debug\netcoreapp3.0\Windows.winmd
 C:\Users\Jack Jenkins\source\repos\BlueBerry\Source\Blueberry.Desktop.ConsolePlayground\bin\Debug\netcoreapp3.0\Blueberry.Dekstop.WindowsApp.Bluetooth.pdb
 C:\Users\Jack Jenkins\source\repos\BlueBerry\Source\Blueberry.Desktop.ConsolePlayground\obj\Debug\netcoreapp3.0\Blueberry.Desktop.ConsolePlayground.csprojAssemblyReference.cache
 C:\Users\Jack Jenkins\source\repos\BlueBerry\Source\Blueberry.Desktop.ConsolePlayground\obj\Debug\netcoreapp3.0\Blueberry.Desktop.ConsolePlayground.AssemblyInfoInputs.cache
